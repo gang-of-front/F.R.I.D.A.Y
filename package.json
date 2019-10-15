@@ -4,7 +4,6 @@
   "description": "Mock http requests",
   "main": "dist/index.js",
   "scripts": {
-    "add-contributor": "kcd-scripts contributors add",
     "build": "kcd-scripts build",
     "test": "kcd-scripts test --env=jsdom",
     "lint": "kcd-scripts lint",
