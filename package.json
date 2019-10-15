@@ -7,7 +7,8 @@
     "build": "kcd-scripts build",
     "test": "kcd-scripts test --env=jsdom",
     "lint": "kcd-scripts lint",
-    "format": "kcd-scripts format"
+    "format": "kcd-scripts format",
+    "validate": "kcd-scripts validate lint,format"
   },
   "repository": {
     "type": "git",

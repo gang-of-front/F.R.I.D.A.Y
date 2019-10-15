@@ -3,18 +3,20 @@ import FetchAdapter from '@pollyjs/adapter-fetch'
 import XHRAdapter from '@pollyjs/adapter-xhr'
 import LocalStoragePersister from '@pollyjs/persister-local-storage'
 
-Polly.register(FetchAdapter)
-Polly.register(XHRAdapter)
-Polly.register(LocalStoragePersister)
+const Friday = () => {
+  Polly.register(FetchAdapter)
+  Polly.register(XHRAdapter)
+  Polly.register(LocalStoragePersister)
 
-const polly = new Polly('AutoFin-API', {
-  adapters: ['fetch', 'xhr'],
-  persister: 'local-storage',
-  logging: true,
-})
+  const polly = new Polly('AutoFin-API', {
+    adapters: ['fetch', 'xhr'],
+    persister: 'local-storage',
+    logging: true,
+  })
 
-const {server} = polly
+  const {server} = polly
 
-server.any().passthrough()
+  server.any().passthrough()
+}
 
-window.polly = polly
+export {Friday}
