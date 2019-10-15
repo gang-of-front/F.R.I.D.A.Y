@@ -2,8 +2,9 @@
   "name": "@gang-of-front/friday",
   "version": "0.0.1",
   "description": "Mock http requests",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "add-contributor": "kcd-scripts contributors add",
     "build": "kcd-scripts build",
     "test": "kcd-scripts test --env=jsdom",
     "lint": "kcd-scripts lint",
@@ -29,5 +30,8 @@
   },
   "devDependencies": {
     "kcd-scripts": "^1.9.0"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
