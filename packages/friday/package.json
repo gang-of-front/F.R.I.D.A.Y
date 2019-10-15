@@ -1,0 +1,46 @@
+{
+  "name": "@gang-of-front/friday",
+  "version": "0.0.1",
+  "description": "Mock http requests",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "kcd-scripts build",
+    "test": "kcd-scripts test --env=jsdom",
+    "lint": "kcd-scripts lint",
+    "format": "kcd-scripts format",
+    "validate": "kcd-scripts validate lint,format"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gang-of-front/F.R.I.D.A.Y.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gang-of-front/F.R.I.D.A.Y/issues"
+  },
+  "homepage": "https://github.com/gang-of-front/F.R.I.D.A.Y#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.6.3",
+    "@pollyjs/adapter-fetch": "^2.6.3",
+    "@pollyjs/adapter-xhr": "^2.6.3",
+    "@pollyjs/core": "^2.6.3",
+    "@pollyjs/persister-local-storage": "^2.6.3"
+  },
+  "devDependencies": {
+    "kcd-scripts": "^1.9.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "mock",
+    "mock-server",
+    "mockup",
+    "wiremock"
+  ],
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  }
+}
