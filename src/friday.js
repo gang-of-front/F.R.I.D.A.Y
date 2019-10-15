@@ -18,4 +18,3 @@ const {server} = polly
 server.any().passthrough()
 
 window.polly = polly
-
