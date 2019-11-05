@@ -6,9 +6,9 @@
     "postinstall": "run-s bootstrap",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
-    "lint": "lerna lint",
-    "format": "lerna format",
-    "validate": "lerna validate",
+    "lint": "lerna run lint",
+    "format": "lerna run format",
+    "validate": "lerna run validate",
     "publish:packs": "lerna publish --conventional-commits"
   },
   "devDependencies": {

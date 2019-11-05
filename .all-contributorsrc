@@ -6,27 +6,33 @@
   "commit": false,
   "contributors": [
     {
-      "login": "rafaellucio",
-      "name": "Rafael Lucio",
-      "avatar_url": "https://avatars3.githubusercontent.com/u/2213926?v=4",
-      "profile": "https://github.com/rafaellucio",
-      "contributions": [
-        "infra",
-        "test",
-        "code"
-      ]
-    },
-    {
       "login": "guilhermegregio",
       "name": "Guilherme Gregio",
       "avatar_url": "https://avatars3.githubusercontent.com/u/806519?v=4",
       "profile": "http://www.gregio.net",
       "contributions": [
-        "infra",
+        "code",
         "test",
-        "code"
+        "doc",
+        "ideas",
+        "maintenance",
+        "infra"
       ]
-    }
+    },
+    {
+      "login": "rafaellucio",
+      "name": "Rafael Lucio",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/2213926?v=4",
+      "profile": "https://github.com/rafaellucio",
+      "contributions": [
+        "code",
+        "test",
+        "doc",
+        "ideas",
+        "maintenance",
+        "infra"
+      ]
+    },
   ],
   "contributorsPerLine": 7,
   "projectName": "F.R.I.D.A.Y",

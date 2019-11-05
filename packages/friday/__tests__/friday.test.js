@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-const friday = require('..');
+const friday = require('..')
 
 describe('friday', () => {
-    it('needs tests');
-});
+  it('needs tests')
+})
