@@ -52,6 +52,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://www.gregio.net"><img src="https://avatars3.githubusercontent.com/u/806519?v=4" width="100px;" alt="Guilherme Gregio"/><br /><sub><b>Guilherme Gregio</b></sub></a><br /><a href="https://github.com/gang-of-front/F.R.I.D.A.Y/commits?author=guilhermegregio" title="Code">💻</a> <a href="https://github.com/gang-of-front/F.R.I.D.A.Y/commits?author=guilhermegregio" title="Tests">⚠️</a> <a href="https://github.com/gang-of-front/F.R.I.D.A.Y/commits?author=guilhermegregio" title="Documentation">📖</a> <a href="#ideas-guilhermegregio" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-guilhermegregio" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://github.com/rafaellucio"><img src="https://avatars3.githubusercontent.com/u/2213926?v=4" width="100px;" alt="Rafael Lucio"/><br /><sub><b>Rafael Lucio</b></sub></a><br /><a href="https://github.com/gang-of-front/F.R.I.D.A.Y/commits?author=rafaellucio" title="Code">💻</a> <a href="https://github.com/gang-of-front/F.R.I.D.A.Y/commits?author=rafaellucio" title="Tests">⚠️</a> <a href="https://github.com/gang-of-front/F.R.I.D.A.Y/commits?author=rafaellucio" title="Documentation">📖</a> <a href="#ideas-rafaellucio" title="Ideas, Planning, & Feedback">🤔</a> <a href="#infra-rafaellucio" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+  </tr>
+</table>
+
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->

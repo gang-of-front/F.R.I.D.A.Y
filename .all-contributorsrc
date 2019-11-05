@@ -15,7 +15,6 @@
         "test",
         "doc",
         "ideas",
-        "maintenance",
         "infra"
       ]
     },
@@ -29,14 +28,14 @@
         "test",
         "doc",
         "ideas",
-        "maintenance",
         "infra"
       ]
-    },
+    }
   ],
   "contributorsPerLine": 7,
   "projectName": "F.R.I.D.A.Y",
   "projectOwner": "gang-of-front",
   "repoType": "github",
-  "repoHost": "https://github.com"
+  "repoHost": "https://github.com",
+  "commitConvention": "none"
 }
