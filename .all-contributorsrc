@@ -15,6 +15,17 @@
         "test",
         "code"
       ]
+    },
+    {
+      "login": "guilhermegregio",
+      "name": "Guilherme Gregio",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/806519?v=4",
+      "profile": "http://www.gregio.net",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
