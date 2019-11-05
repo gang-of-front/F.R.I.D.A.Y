@@ -8,10 +8,9 @@
 
 ## How use
 
-> add in index.js
+> create a mock to api src/mock/auth.js
 
 ```
-//mock/auth.js
 const auth = ({server}) => {
   server
     .get('https://my-api.app.com/auth')
@@ -21,8 +20,9 @@ const auth = ({server}) => {
 export { auth }
 ```
 
+> create src/friday.config.js
+
 ```
-//friday.config.js
 import { friday } from '@gang-of-front/friday'
 import { auth } from './mock/auth'
 
@@ -36,8 +36,9 @@ const factory = friday(auth)
 factory(config)
 ```
 
+> add in index.js
+
 ```
-//index.js
 if (process.env.NODE_ENV === 'development') {
   import('./friday.config')
 }
