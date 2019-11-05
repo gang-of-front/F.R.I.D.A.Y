@@ -1,3 +1,4 @@
-import {Friday} from './friday'
+import {friday} from './friday'
 
-export default Friday
+export {friday}
+export default friday

@@ -10,16 +10,6 @@
     "format": "kcd-scripts format",
     "validate": "kcd-scripts validate lint,format"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gang-of-front/F.R.I.D.A.Y.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/gang-of-front/F.R.I.D.A.Y/issues"
-  },
-  "homepage": "https://github.com/gang-of-front/F.R.I.D.A.Y#readme",
   "dependencies": {
     "@babel/runtime": "^7.6.3",
     "@pollyjs/adapter-fetch": "^2.6.3",
@@ -30,6 +20,16 @@
   "devDependencies": {
     "kcd-scripts": "^1.9.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gang-of-front/F.R.I.D.A.Y.git"
+  },
+  "author": "Guilherme Gregio <guilherme@gregio.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gang-of-front/F.R.I.D.A.Y/issues"
+  },
+  "homepage": "https://github.com/gang-of-front/F.R.I.D.A.Y#readme",
   "files": [
     "dist"
   ],
@@ -38,9 +38,5 @@
     "mock-server",
     "mockup",
     "wiremock"
-  ],
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  }
+  ]
 }

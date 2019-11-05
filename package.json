@@ -1,7 +1,17 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "postinstall": "run-s bootstrap",
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "lint": "lerna lint",
+    "format": "lerna format",
+    "validate": "lerna validate"
+  },
   "devDependencies": {
-    "lerna": "^3.16.4"
+    "lerna": "^3.16.4",
+    "npm-run-all": "^4.1.5"
   }
 }
