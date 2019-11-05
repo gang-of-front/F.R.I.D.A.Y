@@ -2,7 +2,7 @@
 
 > Mock Http Request
 
-![F.R.I.D.A.Y.](../resources/FRIDAY.jpg)
+![F.R.I.D.A.Y.](./resources/FRIDAY.jpg)
 
 ## Install `yarn add -D @gang-of-front/friday`
 
