@@ -45,7 +45,7 @@ if (process.env.NODE_ENV === 'development') {
 }
 ```
 
-## Contributors ✨
+## Contributors 
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
