@@ -1,6 +1,6 @@
 {
   "name": "@gang-of-front/friday",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Mock http requests",
   "main": "dist/index.js",
   "scripts": {
